@@ -1,5 +1,5 @@
 import React from 'react';
-import { ServicesCard, ServicesContainer, ServicesH1, ServicesH2, ServicesIcon, ServicesP, ServicesWrapper } from './ServicesElements'
+import { ServicesCard, ServicesContainer, ServicesH1, ServicesH2, ServicesIcon, ServicesP, ServicesWrapper } from './ServicesElements';
 const Services = () => {
     return (
         <ServicesContainer id='services'>
@@ -23,7 +23,7 @@ const Services = () => {
             </ServicesWrapper>
 
         </ServicesContainer>
-    )
-}
+    );
+};
 
 export default Services;
