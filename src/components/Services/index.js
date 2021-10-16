@@ -3,21 +3,21 @@ import { ServicesCard, ServicesContainer, ServicesH1, ServicesH2, ServicesIcon, 
 const Services = () => {
     return (
         <ServicesContainer id='services'>
-            <ServicesH1>Our Services</ServicesH1>
+            <ServicesH1>As Nossas Aulas</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
-                    <ServicesIcon src='/images/jiu-jitsu-black-white.jpg' />
-                    <ServicesH2>Reduce Expenses</ServicesH2>
+                    <ServicesIcon src='/images/jiu-jitsu_adultos.jpeg' />
+                    <ServicesH2>Jiu-Jitsu Adultos</ServicesH2>
                     <ServicesP>We help reduce your fees and increase your overall revenue. </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src='/images/jiu-jitsu-grapling.jpg' />
-                    <ServicesH2>Virtual Offices</ServicesH2>
+                    <ServicesIcon src='/images/jiu-jitsu_kids.png' />
+                    <ServicesH2>Jiu-Jitsu Kids</ServicesH2>
                     <ServicesP>We help reduce your fees and increase your overall revenue. </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src='/images/jiu-jitsu-kids.jpg' />
-                    <ServicesH2>Premium Benefits</ServicesH2>
+                    <ServicesIcon src='/images/jiu-jitsu_aulas_particulares.jpeg' />
+                    <ServicesH2>Aulas Particulares</ServicesH2>
                     <ServicesP>We help reduce your fees and increase your overall revenue. </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>

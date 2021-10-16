@@ -21,7 +21,7 @@ const HeroSection = () => {
                 <HeroP>O lugar onde o corpo e a mente treinam juntos. </HeroP>
                 <HeroBtnWrapper>
                     <Button to='/contactos' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' >
-                        Experimenta {hover ? <ArrowForward /> : <ArrowRight />}
+                        Marca a tua aula experimental {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
