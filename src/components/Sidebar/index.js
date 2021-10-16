@@ -9,9 +9,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='about' onClick={toggle}>About</SidebarLink>
-                    <SidebarLink to='about' onClick={toggle}>Discover</SidebarLink>
-                    <SidebarLink to='services' onClick={toggle}>Services</SidebarLink>
+                    <SidebarLink to='about' onClick={toggle}>Sobre</SidebarLink>
+                    <SidebarLink to='mestres' onClick={toggle}>Mestres</SidebarLink>
+                    <SidebarLink to='services' onClick={toggle}>Aulas</SidebarLink>
                     <SidebarLink to='signup' onClick={toggle}>Sign Up</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
@@ -21,8 +21,8 @@ const Sidebar = ({ isOpen, toggle }) => {
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
-    )
-}
+    );
+};
 
 export default Sidebar;
 
