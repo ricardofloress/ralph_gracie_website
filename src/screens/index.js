@@ -9,12 +9,9 @@ const Home = () => {
         <>
             <HeroSection />
             <InfoSection {...homeObjOne} />
-            <Services />
             <InfoSection {...homeObjTwo} />
+            <Services />
             <InfoSection {...homeObjThree} />
-
-
-
         </>
     );
 };

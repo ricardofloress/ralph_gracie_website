@@ -1,17 +1,16 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-    background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
+    background: ${({ lightBg }) => (lightBg ? '#fff' : '#010606')};
  
     @media screen and (max-width:768px){
-        padding: 100px 0;    
+        padding: 50px 0 25px 0;    
     } 
 `;
 
 export const InfoWrapper = styled.div`
     display:grid;
     z-index: 1;
-    height: 860px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -46,7 +45,6 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
     max-width:540px;
     padding-top: 0;
-    padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`

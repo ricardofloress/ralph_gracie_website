@@ -68,6 +68,11 @@ export const HeroH1 = styled.h1`
     }
 `;
 
+export const HeroImg = styled.img`
+    height: 100%;
+    margin-bottom: 24px;
+`;
+
 
 export const HeroP = styled.p`
     margin-top: 24px;
