@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { HeroBg, HeroContainer, VideoBg, HeroBtnWrapper, HeroContent, HeroH1, HeroP, ArrowForward, ArrowRight, Overlay, HeroImg } from './HeroElements';
-import { Button } from '../ButtonElements';
+import { ButtonLink } from '../ButtonElements';
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false);
@@ -20,9 +20,9 @@ const HeroSection = () => {
                 <HeroH1>RALPH GRACIE PORTUGAL - Jiu-Jitsu</HeroH1>
                 <HeroP>O lugar onde o corpo e a mente treinam juntos. </HeroP>
                 <HeroBtnWrapper>
-                    <Button href='https://wa.me/915256664' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' >
+                    <ButtonLink href='https://wa.me/+351915256664' target='_blank' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' >
                         Marca a tua aula experimental {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
+                    </ButtonLink>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
