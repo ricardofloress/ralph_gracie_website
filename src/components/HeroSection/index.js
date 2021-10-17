@@ -17,7 +17,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroImg src='/ralphGraciePortugalLogoHeaderWhite.png' alt="Ralph Gracie Portugal" height='100%' />
-                <HeroH1>RALPH GRACIE PORTUGAL - Jiu-Jitsu</HeroH1>
+                <HeroH1>RALPH GRACIE PORTUGAL - Jiu&#8209;Jitsu</HeroH1>
                 <HeroP>O lugar onde o corpo e a mente treinam juntos. </HeroP>
                 <HeroBtnWrapper>
                     <ButtonLink href='https://wa.me/+351915256664' target='_blank' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' >

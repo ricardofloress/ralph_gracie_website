@@ -1,9 +1,10 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
-import { homeObjOne, homeObjThree, homeObjTwo } from '../components/InfoSection/Data';
+import { homeObjOne, homeObjTwo } from '../components/InfoSection/Data';
 import Services from '../components/Services';
 import About from '../components/About';
+import Contacts from '../components/Contacts';
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
             <InfoSection {...homeObjOne} />
             <InfoSection {...homeObjTwo} />
             <Services />
-            <InfoSection {...homeObjThree} />
+            <Contacts/>
         </>
     );
 };

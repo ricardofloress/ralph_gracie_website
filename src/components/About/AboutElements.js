@@ -37,6 +37,7 @@ export const AboutTitle = styled.h1`
 
     @media screen and (max-width: 768px){
         font-size: 2rem;
+        align-self: flex-start;
     }
 `;
 
@@ -49,6 +50,7 @@ export const AboutContent = styled.p`
 
     @media screen and (max-width: 768px){
         line-height: 24px;
+        font-size: 16px;
     }
 `;
 
@@ -118,5 +120,6 @@ export const AboutMVGInfo = styled.p`
 
     @media screen and (max-width: 768px){
         line-height: 24px;
+        font-size: 16px;
     }
 `;
