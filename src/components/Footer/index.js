@@ -21,13 +21,13 @@ const Footer = () => {
                             Ralph Gracie Portugal © {new Date().getFullYear()} Todos os direitos reservados.
                         </WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+                            <SocialIconLink href='#' target='_blank' aria-label='Facebook'>
                                 <FaFacebook />
                             </SocialIconLink>
-                            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+                            <SocialIconLink href='https://www.instagram.com/ralphgracieportugal' target='_blank' aria-label='Instagram'>
                                 <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
+                            <SocialIconLink href='https://www.youtube.com/channel/UC1W9Nhq_fWZuU5nnMUSZjyw' target='_blank' aria-label='Youtube'>
                                 <FaYoutube />
                             </SocialIconLink>
                         </SocialIcons>
