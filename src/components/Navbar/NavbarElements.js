@@ -123,5 +123,14 @@ export const NavBtnLink = styled(LinkR)`
     }
 `;
 
+export const WhatsLink = styled.a`
+    width: 50px;
+    height: 100%;
+`;
 
+export const WhatsLogo = styled.img`
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+`;
 

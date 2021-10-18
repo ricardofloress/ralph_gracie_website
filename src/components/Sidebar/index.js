@@ -1,5 +1,5 @@
 import React from 'react';
-import { CloseIcon, SidebarContainer, Icon, SideBtnWrap, SidebarLink, SidebarRoute, SidebarWrapper, SidebarMenu } from './SidebarElements';
+import { CloseIcon, SidebarContainer, Icon, SideBtnWrap, SidebarLink, WhatsLogo, WhatsLink, SidebarWrapper, SidebarMenu } from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {
     return (
@@ -12,12 +12,15 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to='about' onClick={toggle}>Sobre</SidebarLink>
                     <SidebarLink to='mestres' onClick={toggle}>Mestres</SidebarLink>
                     <SidebarLink to='services' onClick={toggle}>Aulas</SidebarLink>
-                    <SidebarLink to='signup' onClick={toggle}>Sign Up</SidebarLink>
+                    <SidebarLink to='contacts' onClick={toggle}>Contactos</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to='signin'>
+                    <WhatsLink href='https://wa.me/+351915256664' target='_blank' >
+                        <WhatsLogo src='/images/whatapp-logo.png' alt="Ralph Gracie Portugal Whatsapp" />
+                    </WhatsLink>
+                    {/*<SidebarRoute to='signin'>
                         Sign In
-                    </SidebarRoute>
+    </SidebarRoute>*/}
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

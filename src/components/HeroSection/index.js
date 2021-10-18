@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HeroBg, HeroContainer, VideoBg, HeroBtnWrapper, HeroContent, HeroH1, HeroP, ArrowForward, ArrowRight, Overlay, HeroImg } from './HeroElements';
+import { HeroBg, HeroContainer, ImgBg, HeroBtnWrapper, HeroContent, HeroH1, HeroP, ArrowForward, ArrowRight, Overlay, HeroImg } from './HeroElements';
 import { ButtonLink } from '../ButtonElements';
 
 const HeroSection = () => {
@@ -13,7 +13,9 @@ const HeroSection = () => {
         <HeroContainer>
             <HeroBg>
                 <Overlay />
-                <VideoBg autoPlay muted loop src='/videos/ralph_gracie_bjj_video.mp4' type='video/mp4' />
+                {/* 
+                    <VideoBg autoPlay muted loop src='/videos/ralph_gracie_bjj_video.mp4' type='video/mp4' />*/}
+                <ImgBg src='/images/ralph_gracie_portugal_space.jpeg'/>
             </HeroBg>
             <HeroContent>
                 <HeroImg src='/ralphGraciePortugalLogoHeaderWhite.png' alt="Ralph Gracie Portugal" height='100%' />

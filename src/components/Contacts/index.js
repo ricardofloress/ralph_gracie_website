@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContactsContainer, ContactsElement, ContactsHeading, ContactsWrapper, Map, ContactsInfo} from './ContactsElements';
+import { ContactsContainer, ContactsElement, ContactsHeading, ContactsWrapper, Map, ToLink, ContactsInfo } from './ContactsElements';
 
 const Contacts = () => {
     return (
@@ -10,11 +10,11 @@ const Contacts = () => {
                     <ContactsInfo>
                         <strong>Endereço:</strong> <br />Rua Dr. Afonso Cordeiro 123, 4450-005 Matosinhos
                         <br />
-                        ​<br />
-                        <strong>Telefone:</strong> <br /> +351 968 320 127
                         <br />
-                        ​<br />
-                        <strong>E-mail:</strong> <br /> ralphgracieportugal@gmail.com
+                        <strong>Telefone:</strong> <br /><ToLink href="tel:+351 968 320 127">+351 968 320 127</ToLink>
+                        <br />
+                        <br />
+                        <strong>E-mail:</strong> <br /><ToLink href="mailto:ralphgracieportugal@gmail.com">ralphgracieportugal@gmail.com</ToLink>
                     </ContactsInfo>
 
                 </ContactsElement>

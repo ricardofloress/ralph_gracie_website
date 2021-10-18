@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
     background: ${({ lightBg }) => (lightBg ? '#fff' : '#010606')};
-    background-image: linear-gradient(rgb(0 0 0 / 68%),rgb(0 0 0)),url("/images/ralph_gracie_portugal_space.jpeg");
+    /*background-image: linear-gradient(rgb(0 0 0 / 68%),rgb(0 0 0)),url("/images/ralph_gracie_portugal_sparring.jpeg");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,3 +123,4 @@ export const AboutMVGInfo = styled.p`
         font-size: 16px;
     }
 `;
+

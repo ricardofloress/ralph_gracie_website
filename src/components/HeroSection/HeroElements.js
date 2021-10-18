@@ -26,15 +26,24 @@ export const HeroBg = styled.div`
 `;
 
 export const Overlay = styled.div`
-position: absolute;
+    position: absolute;
     left: 0px;
     top: 0px;
     width: 100%;
     height: 100%;
-    background-color: rgba(50, 50, 50, 0.3);
+    background-color: rgb(0 0 0 / 73%);
 `;
 
 export const VideoBg = styled.video`
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+    background: #232a34; 
+`;
+
+
+export const ImgBg = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;

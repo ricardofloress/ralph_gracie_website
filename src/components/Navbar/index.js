@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Nav, NavLogo, NavbarContainer, MobileIcon, NavItem, NavLinks, NavMenu, NavBtn, NavBtnLink } from "./NavbarElements";
+import { Nav, NavLogo, NavbarContainer, MobileIcon, NavItem, NavLinks, NavMenu, NavBtn, NavBtnLink, WhatsLink, WhatsLogo } from "./NavbarElements";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
@@ -47,11 +47,14 @@ const Navbar = ({ toggle }) => {
                                 <NavLinks to='services' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Aulas</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to='signup' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Sign Up</NavLinks>
+                                <NavLinks to='contacts' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Contactos</NavLinks>
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+                            <WhatsLink href='https://wa.me/+351915256664' target='_blank' >
+                                <WhatsLogo src='/images/whatapp-logo.png' alt="Ralph Gracie Portugal Whatsapp"/>
+                            </WhatsLink>
+                           {/* <NavBtnLink to='/signin'>Sign In</NavBtnLink>*/} 
                         </NavBtn>
                     </NavbarContainer>
                 </Nav>

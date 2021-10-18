@@ -45,9 +45,11 @@ export const Map = styled.div`
     width: 300px;
     overflow: hidden;
     border-radius: 100%;
+    align-self: end;
 
     @media screen and (max-width: 768px){
         margin-top: 50px;
+        align-self: center;
     }
 `;
 
@@ -85,4 +87,20 @@ export const ContactsInfo = styled.p`
         font-size:  16px;
         align-self: flex-start;
     } 
+`;
+
+export const ToLink = styled.a`
+    color: ${({ darkText }) => (darkText ? '#010606' : '#ffffff')};
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.2 ease;
+    
+    @media screen and (max-width: 768px){
+        font-size: 16px;
+    }
+
+    &:hover{
+        color: #d74341;
+        transition: all 0.2 ease;
+    }
 `;
