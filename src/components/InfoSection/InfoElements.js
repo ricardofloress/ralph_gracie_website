@@ -4,7 +4,7 @@ export const InfoContainer = styled.div`
     background: ${({ lightBg }) => (lightBg ? '#fff' : '#010606')};
  
     @media screen and (max-width:768px){
-        padding: 50px 0 25px 0;    
+        padding: 50px 0 0 0;    
     } 
 `;
 
@@ -20,6 +20,7 @@ export const InfoWrapper = styled.div`
 `;
 
 export const InfoRow = styled.div`
+
     display:grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
@@ -31,13 +32,11 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
 `;
 
 export const Column2 = styled.div`
-    margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
 `;
@@ -67,7 +66,7 @@ export const Heading = styled.h1`
     margin-bottom: 24px;
 
     @media screen and (max-width:768px){
-    font-size:  32px;
+    font-size: 32px;
     } 
 `;
 
@@ -94,7 +93,7 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-    margin: 0 0 10px 0;
     width: 100%;
+    margin-bottom: -4px;
     padding-right: 0;
 `;

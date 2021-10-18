@@ -6,7 +6,7 @@ export const ContactsContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 100px 0;
+    padding: 225px 0;
 `;
 
 export const ContactsWrapper = styled.div`
