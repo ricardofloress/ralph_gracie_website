@@ -54,8 +54,8 @@ export const ImgBg = styled.img`
 export const HeroContent = styled.div`
     z-index:3;
     position: absolute;
-    max-width: 1200px;
-    padding: 8px 24px;
+    max-width: 1100px;
+    padding: 8px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;

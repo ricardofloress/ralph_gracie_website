@@ -5,6 +5,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-html,body{
-  overflow-x: hidden;
+@media (max-width: 768px) {
+
 }
