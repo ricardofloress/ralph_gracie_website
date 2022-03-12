@@ -8,7 +8,7 @@ const Contacts = () => {
                 <ContactsElement>
                     <ContactsHeading lightText>Contactos</ContactsHeading>
                     <ContactsInfo>
-                        <strong>Endereço:</strong> <br />Rua Dr. Afonso Cordeiro 123, 4450-005 Matosinhos
+                        <strong>Endereço:</strong> <br /><ToLink target="_blank" href="https://goo.gl/maps/AqMcSm2xSup7hb4J8">Rua Dr. Afonso Cordeiro 123, 4450-005 Matosinhos</ToLink>
                         <br />
                         <br />
                         <strong>Telefone:</strong> <br /><ToLink href="tel:+351 968 320 127">+351 968 320 127</ToLink>

@@ -31,7 +31,7 @@ export const Overlay = styled.div`
     top: 0px;
     width: 100%;
     height: 100%;
-    background-color: rgb(0 0 0 / 73%);
+    background-color: rgb(0 0 0 / 50%);
 `;
 
 export const VideoBg = styled.video`
