@@ -3,7 +3,7 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Mestre',
+    topLine: 'Professor',
     headline: 'Amaury Guimarães',
     description: 'Amaury Guimarães, faixa preta com cerca de trinta anos dedicados à prática de Jiu-Jitsu, e desses mais de dez direcionados a administrar aulas. Conquistou vários títulos na sua carreira: Estaduais, Brasileiros e Internacionais. Membro da Sociedade Latino Americana de Coaching, faz uso de tais ferramentas como factor diferencial nos treinos diários com os seus alunos.',
     buttonLabel: 'Get started',
