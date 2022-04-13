@@ -7,8 +7,6 @@ export const ServicesContainer = styled.div`
     align-items: center;
     flex-direction: column;
     padding: 100px 0;
-
-
 `;
 
 export const ServicesWrapper = styled.div`
@@ -97,4 +95,8 @@ export const ServicesP = styled.p`
     @media screen and (max-width: 768px){
         font-size: 16px;
     }
+`;
+
+export const ServicesButtonWrapper = styled.div`
+    margin: 90px 0 0 0;
 `;

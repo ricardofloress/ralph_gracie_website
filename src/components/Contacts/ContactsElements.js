@@ -6,7 +6,11 @@ export const ContactsContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 225px 0;
+    padding: 190px 0;
+
+    @media screen and (max-width: 768px){
+        padding: 70px 20px;
+    }
 `;
 
 export const ContactsWrapper = styled.div`

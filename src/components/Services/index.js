@@ -1,6 +1,9 @@
 import React from 'react';
-import { ServicesCard, ServicesContainer, ServicesH1, ServicesH2, ServicesIcon, ServicesP, ServicesWrapper } from './ServicesElements';
-const Services = () => {
+import { ServicesCard, ServicesButtonWrapper, ServicesContainer, ServicesH1, ServicesH2, ServicesIcon, ServicesP, ServicesWrapper } from './ServicesElements';
+import { Button } from '../ButtonElements';
+
+const Services = ({ toggleModalProp }) => {
+
     return (
         <ServicesContainer id='services'>
             <ServicesH1>As Nossas Aulas</ServicesH1>
@@ -20,9 +23,21 @@ const Services = () => {
                     <ServicesH2>Aulas Particulares</ServicesH2>
                     <ServicesP>As aulas privadas permitem uma evolução mais rápida do praticante devido atenção total do professor, o aluno irá aprimorar a sua técnica.</ServicesP>
                     <ServicesIcon src='/images/jiu-jitsu_aulas_particulares.jpeg' />
-
                 </ServicesCard>
             </ServicesWrapper>
+
+
+            <ServicesButtonWrapper>
+                <Button
+                    className="openModalBtn"
+                    onClick={toggleModalProp}
+                    primary='true'
+                    dark='true'
+                >
+                    Conheça o Nosso Horário de Aulas
+                </Button>
+            </ServicesButtonWrapper>
+
 
         </ServicesContainer>
     );
